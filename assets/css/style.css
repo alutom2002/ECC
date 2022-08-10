@@ -159,6 +159,7 @@ h6 {
 }
 
 /* End reset */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 :root {
     --blue: #86abf9;
@@ -167,7 +168,7 @@ h6 {
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     max-width: 100%;
     overflow-x: hidden;
@@ -204,6 +205,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 999;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 nav img {
@@ -211,16 +213,15 @@ nav img {
     height: 50px;
 }
 
-nav ul {
-    display: flex;
-}
-
-nav ul li {
-    padding: 0 10px;
+nav a span {
+    font-size: 24px;
+    background: -webkit-linear-gradient(30deg, rgb(225, 225, 225), rgb(255, 255, 255));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 nav li a {
-    font-size: 20px;
+    font-size: 24px;
     color: rgba(255, 255, 255, 0.7);
     transition: 0.2s;
     padding: 5px 0;
@@ -294,44 +295,44 @@ nav li a:hover {
     font-size: 24px;
 }
 
-/* News */
+/* Card */
 
 .card-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #eee;
-    border-radius: 15px;
 }
 
 .card-img img {
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-radius: 15px;
 }
 
-.card-title {
+.card-title,
+.post-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size: 20px;
     color: var(--blue);
     opacity: 0.8;
     transition: .25s;
 }
 
-.card-title:hover {
+.card-title:hover,
+.post-title:hover {
     color: var(--blue);
     opacity: 1;
 }
 
-.btn {
-    color: #fff;
-    background-color: var(--blue);
-    transition: .25s;
-}
-
-.btn:hover {
-    color: #fff;
-    background-color: var(--blue);
-    transform: scale(1.1);
+.card-content {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /* Counter */
@@ -380,13 +381,12 @@ nav li a:hover {
 .social-container {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
-    padding: 8px 0;
+    align-items: center;
+    height: 100%;
 }
 
 .social-container a {
-    font-size: 32px;
-    padding: 0 8px;
+    font-size: 48px;
 }
 
 .link-container ul li a {
@@ -397,4 +397,37 @@ nav li a:hover {
 .link-container ul li a {
     color: #fff;
     font-weight: 400;
+}
+
+
+/*----------About---------- */
+
+
+.about-content h1 {
+    font-size: 48px;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    padding: 1rem 0 ;
+}
+
+.about-content h1,
+.about-content h2{
+    color:var(--blue);
+}
+
+.about-content div {
+    font-size: 24px;
+}
+
+.about-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.team-section{
+    padding: 0 8px;
 }
