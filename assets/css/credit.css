@@ -1,3 +1,32 @@
+/*----------About---------- */
+
+
+.about-content h1 {
+    font-size: 48px;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    padding: 1rem 0;
+}
+
+.about-content h1,
+.about-content h2 {
+    color: var(--blue);
+}
+
+.about-content div {
+    font-size: 24px;
+}
+
+.about-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+/* Member */
 
 .team-section {
     cursor: pointer;

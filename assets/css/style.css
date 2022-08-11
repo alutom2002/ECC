@@ -250,3 +250,21 @@ nav li a:hover {
 #body {
     margin-top: 60px;
 }
+
+.title {
+    font-size: 48px;
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.sub-title {
+    font-size: 32px;
+}
+
+.content {
+    font-size: 32px;
+}
+
+.br {
+    border-bottom: 1px solid #eee;
+}

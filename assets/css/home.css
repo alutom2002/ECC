@@ -1,17 +1,4 @@
-
-#slide,
-#about,
-#quotes,
-#news,
-#teams,
-#sub,
-#gallery,
-#join {
-    border-bottom: 1px solid #eee;
-}
-
 /* Slide */
-
 
 .carousel-item img {
     height: 80%;
@@ -22,22 +9,6 @@
     height: 15px;
     border-radius: 100%;
     background-color: var(--blue);
-}
-
-/* About */
-
-.title {
-    font-size: 48px;
-    color: var(--blue);
-    font-weight: 700;
-}
-
-.sub-title {
-    font-size: 32px;
-}
-
-.content {
-    font-size: 32px;
 }
 
 /* Quotes */
@@ -162,30 +133,3 @@
 }
 
 
-/*----------About---------- */
-
-
-.about-content h1 {
-    font-size: 48px;
-}
-
-.about-content h2 {
-    font-size: 32px;
-    padding: 1rem 0;
-}
-
-.about-content h1,
-.about-content h2 {
-    color: var(--blue);
-}
-
-.about-content div {
-    font-size: 24px;
-}
-
-.about-img {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 250px;
-}
