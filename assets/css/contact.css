@@ -1,0 +1,15 @@
+.form-message {
+    height: 250px;
+    resize: none;
+}
+
+.btn-submit {
+    background: var(--blue);
+    color:#fff;
+}
+
+.btn:hover{
+    background: var(--blue);
+    border:transparent;
+    color:#fff;
+}
