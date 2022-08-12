@@ -62,3 +62,12 @@ less.onclick = function () {
     more.classList.add('active');
     hideMembers();
 } */
+
+// swiper libray initialization
+new Swiper('.swiper-container', {
+    loop: true,
+    slidesPerView: 5,
+    autoplay: {
+        delay: 3000
+    },
+})
