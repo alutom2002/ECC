@@ -288,3 +288,20 @@ nav li a:hover {
     color: #fff;
     font-weight: 400;
 }
+
+/* Single post */
+#post{
+    padding: 1em 1.7em;
+    margin-bottom: 2em;
+    text-align: justify;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+.ref-link{
+    color:#5886e7;
+}
+
+.ref-link:hover{
+    color:#86abf9;
+}
+/* Single post */
