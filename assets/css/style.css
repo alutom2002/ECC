@@ -218,6 +218,7 @@ nav a span {
     background: -webkit-linear-gradient(30deg, rgb(225, 225, 225), rgb(255, 255, 255));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    font-weight: bold;
 }
 
 nav li a {
